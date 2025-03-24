@@ -40,6 +40,9 @@ blackbox_exporter_stack_name: blackbox_exporter
 blackbox_exporter_swarm_deploy:
   mode: global
 
+# Uncomment this if you need to specify a network mode
+# blackbox_exporter_network_mode: host
+
 # example blackbox_exporter_swarm_deploy:
 #   mode: replicated
 #   replicas: 2
